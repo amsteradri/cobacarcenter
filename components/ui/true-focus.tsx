@@ -81,7 +81,7 @@ export const TrueFocus: React.FC<TrueFocusProps> = ({
         return (
           <span
             key={index}
-            ref={(el) => (wordRefs.current[index] = el)}
+            ref={(el) => { wordRefs.current[index] = el; }}
             className={cn(
               "relative text-4xl md:text-6xl font-black px-2 py-1 transition-all duration-300",
               !isActive && currentIndex !== -1 ? "blur-sm opacity-50 scale-95" : "scale-105 opacity-100 blur-0"

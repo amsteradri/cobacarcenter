@@ -34,7 +34,7 @@ export const SplitText = ({
   const words = text.split(" ");
   const controls = useAnimation();
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: rootMargin });
+  const isInView = useInView(ref, { once: true, margin: rootMargin as any });
 
   useEffect(() => {
     if (isInView) {

@@ -2,17 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { useEffect, useRef } from "react";
-import { createStore } from "zustand";
-
-interface ScrollState {
-  isScrolling: boolean;
-  setIsScrolling: (value: boolean) => void;
-}
-
-export const useScrollStore = createStore<ScrollState>((set) => ({
-  isScrolling: false,
-  setIsScrolling: (value) => set({ isScrolling: value }),
-}));
 
 export const HeroParallax = ({
   products,
