@@ -10,12 +10,12 @@ export function About() {
       image: "/sergi.png",
       instagram: "https://www.instagram.com/sergi.barragan/" 
     },
-    {
-      name: "Oriol Collado",
-      role: "Co-Founder Coba",
-      image: "/oriol.jpg", 
-      instagram: "https://www.instagram.com/oriiiiol/"
-    }
+    // {
+    //   name: "Oriol Collado",
+    //   role: "Co-Founder Coba",
+    //   image: "/oriol.jpg", 
+    //   instagram: "https://www.instagram.com/oriiiiol/"
+    // }
   ];
 
   return (

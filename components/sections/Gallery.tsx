@@ -15,12 +15,12 @@ export const ParallaxScroll = () => {
   const translateThird = useTransform(scrollYProgress, [0, 1], [0, -150]);
 
   const images = [
-    "/cars/g63.jpg",
-    "/cars/gt3.jpg",
-    "/cars/gtr.jpg",
-    "/cars/mercedes.jpg",
-    "/cars/rs6.jpg",
-    "/cars/rsq8.jpg",
+    "/cars/IMG_3373.png",
+    "/cars/IMG_3374.png",
+    "/cars/IMG_3375.png",
+    "/cars/IMG_3376.png",
+    "/cars/IMG_3379.png",
+    "/cars/photo-output.jpeg",
   ];
 
   return (
